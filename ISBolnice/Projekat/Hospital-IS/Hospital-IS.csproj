@@ -5,6 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Hospital_IS</RootNamespace>
     <UseWPF>true</UseWPF>
+    <RepositoryUrl>https://github.com/NekaFirma/dfa/tree/nova</RepositoryUrl>
+    <Description>Proba</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
