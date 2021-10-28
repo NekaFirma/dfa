@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AppLogger\\bin",
+    "\\AppLogger\\bin\\Debug",
+    "\\AppLogger\\bin\\Debug\\net5.0",
+    "\\AppLogger\\bin\\Debug\\net5.0\\ref",
+    "\\AppLogger\\obj",
+    "\\AppLogger\\obj\\Debug",
+    "\\AppLogger\\obj\\Debug\\net5.0",
+    "\\AppLogger\\obj\\Debug\\net5.0\\ref",
+    "\\AppLogger\\obj\\Release",
+    "\\AppLogger\\obj\\Release\\net5.0"
+  ],
+  "SelectedNode": "\\ISBolnice\\Projekat\\Hospital-IS\\Hospital-IS.csproj",
+  "PreviewInSolutionExplorer": false
+}
