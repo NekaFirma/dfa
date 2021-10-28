@@ -17,9 +17,10 @@ namespace Storages
 
         public List<Bed> GetAll()
         {
-            String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<Bed> allBeds = JsonConvert.DeserializeObject<List<Bed>>(text);
-            return allBeds;
+            return allBeds;*/
+            return null;
         }
 
         public void SaveBeds(List<Bed> allBeds)

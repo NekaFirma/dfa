@@ -16,19 +16,20 @@ namespace ClinicCore.Storages
         }
         public List<FeedbackMessage> GetAll()
         {
-            String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<FeedbackMessage> messages = JsonConvert.DeserializeObject<List<FeedbackMessage>>(text);
 
-            return messages;
+            return messages;*/
+            return null;
         }
 
         public void SaveMessage(List<FeedbackMessage> messages)
         {
-            var file = JsonConvert.SerializeObject(messages, Formatting.Indented);
+            /*var file = JsonConvert.SerializeObject(messages, Formatting.Indented);
             using (StreamWriter writer = new StreamWriter(this.fileLocation))
             {
                 writer.Write(file);
-            }
+            }*/
         }
     }
 }

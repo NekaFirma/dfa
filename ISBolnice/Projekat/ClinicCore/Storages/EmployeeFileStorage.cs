@@ -19,10 +19,11 @@ namespace Storages
 
         public List<Employee> GetAll()
         {
-            String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<Employee> allEmployees = JsonConvert.DeserializeObject<List<Employee>>(text);
 
-            return allEmployees;
+            return allEmployees;*/
+            return null;
         }
     }
 }

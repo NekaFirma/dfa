@@ -17,20 +17,21 @@ namespace Storages
 
         public List<Transfer> GetAll()
         {
-            String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<Transfer> allTransfers = JsonConvert.DeserializeObject<List<Transfer>>(text);
-            return allTransfers;
+            return allTransfers;*/
+            return null;
         }
 
        
 
         public void Save(List<Transfer> allTransfers)
         {
-            var file = JsonConvert.SerializeObject(allTransfers, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
+            /*var file = JsonConvert.SerializeObject(allTransfers, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
             using (StreamWriter writer = new StreamWriter(this.fileLocation))
             {
                 writer.Write(file);
-            }
+            }*/
         }
     }
 }

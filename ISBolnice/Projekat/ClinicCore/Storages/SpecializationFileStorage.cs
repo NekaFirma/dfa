@@ -24,9 +24,10 @@ namespace ClinicCore.Storages
             //allSpecialties.Add(new Specialty("Stomatolog"));
             //allSpecialties.Add(new Specialty("Infektolog"));
 
-            String text = File.ReadAllText(this.FileLocation);
+            /*String text = File.ReadAllText(this.FileLocation);
             List<Specialty> allSpecialties = JsonConvert.DeserializeObject<List<Specialty>>(text);
-            return allSpecialties;
+            return allSpecialties;*/
+            return null;
 
         }
 
@@ -34,11 +35,11 @@ namespace ClinicCore.Storages
 
         public void SaveSpecialties(List<Specialty> allSpecialties)
         {
-            var file = JsonConvert.SerializeObject(allSpecialties, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
+            /*var file = JsonConvert.SerializeObject(allSpecialties, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
             using (StreamWriter writer = new StreamWriter(this.FileLocation))
             {
                 writer.Write(file);
-            }
+            }*/
         }
     }
     

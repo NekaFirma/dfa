@@ -10,7 +10,7 @@ namespace Service
     public class TransferService
     {
         private TransferStorage tfs = new TransferStorage();
-        private List<Transfer> allTransfer { get; set; }
+        private List<Transfer> AllTransfer { get; set; }
 
         private static TransferService instance = null;
         public static TransferService Instance
@@ -27,7 +27,7 @@ namespace Service
 
         public TransferService()
         {
-           allTransfer = tfs.GetAll();
+           AllTransfer = tfs.GetAll();
            
         }
 
@@ -105,7 +105,7 @@ namespace Service
         public void ExecuteStaticTransfer(Transfer transfer)
         {
 
-            tfs.Save(allTransfer);
+            tfs.Save(AllTransfer);
             Room sourceRoom = RoomService.Instance.GetRoomById(transfer.SourceRoomId);
             Room destinationRoom = RoomService.Instance.GetRoomById(transfer.DestinationRoomId);
 
@@ -134,7 +134,7 @@ namespace Service
                 if (eq.EquiptId == equip.EquiptId)
                 {
 
-                    eq.Quantity = eq.Quantity + quantity;
+                    eq.Quantity += quantity;
                     exist = true;
                 }
             }
@@ -151,8 +151,8 @@ namespace Service
 
         public void AddTransfer(Transfer transfer)
         {
-            allTransfer.Add(transfer);
-            tfs.Save(allTransfer);
+            AllTransfer.Add(transfer);
+            tfs.Save(AllTransfer);
         }
 
         public void SaveTransfers(List<Transfer> transfers)
@@ -162,7 +162,7 @@ namespace Service
 
         public List<Transfer> GetAllTransfers()
         {
-            return allTransfer;
+            return AllTransfer;
         }
 
     }

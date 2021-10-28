@@ -18,19 +18,20 @@ namespace ClinicCore.Storages
 
         public List<Notification> GetAll()
         {
-            String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<Notification> notifications = JsonConvert.DeserializeObject<List<Notification>>(text);
 
-            return notifications;
+            return notifications;*/
+            return null;
         }
 
         public void SaveNotifications(List<Notification> notifications)
         {
-            var file = JsonConvert.SerializeObject(notifications, Formatting.Indented);
+            /*var file = JsonConvert.SerializeObject(notifications, Formatting.Indented);
             using (StreamWriter writer = new StreamWriter(this.fileLocation))
             {
                 writer.Write(file);
-            }
+            }*/
         }
     }
 }

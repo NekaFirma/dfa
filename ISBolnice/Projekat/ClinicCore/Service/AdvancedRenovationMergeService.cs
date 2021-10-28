@@ -52,7 +52,7 @@ namespace Hospital_IS.Service
             {
                 if(DateTime.Compare(transfer.TransferEnd,renovationStart ) > 0)
                 {
-                    transfer.isMade = true;
+                    transfer.IsMade = true;
                 }
             }
             TransferService.Instance.SaveTransfers(transfers);

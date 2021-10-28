@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ClinicCore.DTOs.SecretaryDTOs
+namespace ClinicCore.DTOs
 {
     public class NotificationDTO
     {
@@ -24,10 +24,10 @@ namespace ClinicCore.DTOs.SecretaryDTOs
 
         public NotificationDTO()
         {
-            generateId();
+            GenerateId();
         }
 
-        private void generateId()
+        private void GenerateId()
         {
             Random rand = new Random();
             this.Id = rand.Next(1, 100000);

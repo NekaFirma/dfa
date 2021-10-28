@@ -12,7 +12,7 @@ namespace Model
 
         public DateTime TransferEnd { get; set; }
 
-        public Boolean isMade { get; set; }
+        public Boolean IsMade { get; set; }
 
         public Transfer(int sourceRoomId, int destinationRoomId, Equipment equip, int quantity, DateTime transferEnd,Boolean isMade)
         {
@@ -21,7 +21,7 @@ namespace Model
             this.Equip = equip;
             this.Quantity = quantity;
             this.TransferEnd = transferEnd;
-            this.isMade = isMade;
+            this.IsMade = isMade;
         }
 
         public Transfer()

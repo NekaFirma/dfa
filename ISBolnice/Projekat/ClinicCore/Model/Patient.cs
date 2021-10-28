@@ -66,28 +66,28 @@ namespace Model
         {
         }
 
-        public Doctor doctor { get; set; }
+        public Doctor Doc { get; set; }
 
         public Doctor Doctor
         {
             get
             {
-                return doctor;
+                return Doc;
             }
             set
             {
-                if (this.doctor == null || !this.doctor.Equals(value))
+                if (this.Doc == null || !this.Doc.Equals(value))
                 {
-                    if (this.doctor != null)
+                    if (this.Doc != null)
                     {
-                        Doctor oldDoctor = this.doctor;
-                        this.doctor = null;
+                        Doctor oldDoctor = this.Doc;
+                        this.Doc = null;
                         oldDoctor.RemovePatient(this);
                     }
                     if (value != null)
                     {
-                        this.doctor = value;
-                        this.doctor.AddPatient(this);
+                        this.Doc = value;
+                        this.Doc.AddPatient(this);
                     }
                 }
             }
