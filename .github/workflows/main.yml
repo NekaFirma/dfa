@@ -1,0 +1,5 @@
+name: "My workflow"
+
+on: [ push ]
+
+permissions: read-all
