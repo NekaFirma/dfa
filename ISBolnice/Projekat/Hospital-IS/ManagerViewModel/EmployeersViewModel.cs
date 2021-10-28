@@ -1,8 +1,6 @@
-﻿using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows.Navigation;
 
 namespace Hospital_IS.ManagerViewModel

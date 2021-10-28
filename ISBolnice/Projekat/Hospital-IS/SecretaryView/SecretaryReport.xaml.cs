@@ -1,6 +1,5 @@
 ﻿using DTOs;
 using Hospital_IS.Adapter;
-using Hospital_IS.Controllers;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows;

@@ -1,5 +1,4 @@
-﻿using Enums;
-using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
 using Model;
 using Service;
 using System;

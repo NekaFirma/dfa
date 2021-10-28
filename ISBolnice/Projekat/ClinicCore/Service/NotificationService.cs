@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace ClinicCore.Service
 {
-    class NotificationService
+    public class NotificationService
     {
         private NotificationFileStorage nfs = new NotificationFileStorage();
 

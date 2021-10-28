@@ -1,5 +1,4 @@
-﻿using Hospital_IS.DoctorRole.DoctorView;
-using Hospital_IS.DoctorViewModel;
+﻿using Hospital_IS.DoctorViewModel;
 using Model;
 using System;
 using System.Windows;

@@ -1,4 +1,4 @@
-﻿using Hospital_IS.DTOs.SecretaryDTOs;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
 using System.Windows;
 
 

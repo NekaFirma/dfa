@@ -1,7 +1,5 @@
-﻿using Controllers;
-using Hospital_IS.Adapter;
+﻿using ClinicCore.DTOs;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows;

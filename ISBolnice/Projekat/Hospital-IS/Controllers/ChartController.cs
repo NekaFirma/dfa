@@ -1,6 +1,6 @@
-﻿using DTOs;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
+using DTOs;
 using Model;
 using Service;
 using System;

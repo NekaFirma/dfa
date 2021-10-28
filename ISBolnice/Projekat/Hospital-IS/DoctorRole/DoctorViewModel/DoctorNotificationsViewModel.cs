@@ -1,6 +1,6 @@
-﻿using Hospital_IS.Controllers;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using System.Collections.Generic;
 
 //MVVM

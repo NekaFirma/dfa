@@ -1,9 +1,9 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using DTOs;
 using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorRole.DoctorView;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

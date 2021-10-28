@@ -1,6 +1,6 @@
-﻿using DTOs;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using DTOs;
 using Hospital_IS.DoctorViewModel;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Model;
 using System.Collections.ObjectModel;
 

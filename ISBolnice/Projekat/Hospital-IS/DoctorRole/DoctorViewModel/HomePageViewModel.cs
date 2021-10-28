@@ -1,5 +1,4 @@
 ﻿using DTOs;
-using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorRole.DoctorConverters;
 using System;

@@ -1,11 +1,10 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using Controllers;
 using DTOs;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
 using Microsoft.Windows.Controls;
 using Model;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows.Navigation;
 

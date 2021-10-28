@@ -1,7 +1,6 @@
-﻿using Hospital_IS.DTOs;
-using Hospital_IS.Model;
-using Hospital_IS.Service;
-using System;
+﻿using ClinicCore.DTOs;
+using ClinicCore.Model;
+using ClinicCore.Service;
 
 namespace Hospital_IS.Controllers
 {

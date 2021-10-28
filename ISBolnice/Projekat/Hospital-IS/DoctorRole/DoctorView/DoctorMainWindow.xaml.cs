@@ -1,11 +1,10 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
 using DTOs;
 using Enums;
 using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorViewModel;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Model;
 using System;
 using System.Collections.Generic;
@@ -15,7 +14,6 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Navigation;
 using System.Windows.Threading;
 
 namespace Hospital_IS.DoctorRole.DoctorView

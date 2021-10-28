@@ -1,7 +1,8 @@
-﻿using Hospital_IS.Controllers;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorViewModel;
-using Hospital_IS.DTOs.SecretaryDTOs;
+
 
 //MVVM
 namespace Hospital_IS.DoctorRole.DoctorViewModel
@@ -62,12 +63,12 @@ namespace Hospital_IS.DoctorRole.DoctorViewModel
 
         private void Execute_SaveCommand(object obj)
         {
-            patient.Validate();
-            if (patient.IsValid)
-            {
+            //patient.Validate();
+            //if (patient.IsValid)
+            //{
                 SecretaryManagementController.Instance.UpdatePatient(Patient);
                 PatientChartViewModel.Instance.ChangeCommand.Execute("1");
-            }
+            //}
         }
         private void Execute_CancelCommand(object obj)
         {

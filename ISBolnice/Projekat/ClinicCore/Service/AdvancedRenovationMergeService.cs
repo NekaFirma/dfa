@@ -1,13 +1,8 @@
-﻿using DTOs;
-using ClinicCore.DTOs.SecretaryDTOs;
+﻿using ClinicCore.Service;
 using Model;
 using Service;
-using Storages;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Windows;
-using ClinicCore.Service;
 
 namespace Hospital_IS.Service
 {

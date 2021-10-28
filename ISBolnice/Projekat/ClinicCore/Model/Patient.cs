@@ -1,9 +1,8 @@
-using Enums;
 using ClinicCore.Model;
 using ClinicCore.Model.Interface;
+using Enums;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace Model
 {

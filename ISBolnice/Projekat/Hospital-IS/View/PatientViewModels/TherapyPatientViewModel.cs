@@ -1,15 +1,13 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using Controllers;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Reflection.Metadata;
-using System.Windows.Documents;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
 using System.IO;
 using System.Windows;
-using Hospital_IS.DTOs;
 
 namespace Hospital_IS.View.PatientViewModels
 {

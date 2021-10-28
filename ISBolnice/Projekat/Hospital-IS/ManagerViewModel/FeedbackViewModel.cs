@@ -1,5 +1,5 @@
-﻿using Hospital_IS.Model;
-using Hospital_IS.Service;
+﻿using ClinicCore.Model;
+using ClinicCore.Service;
 using System;
 using System.Windows;
 using System.Windows.Navigation;

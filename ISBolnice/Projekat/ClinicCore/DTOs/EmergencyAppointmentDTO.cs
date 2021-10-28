@@ -1,6 +1,5 @@
-﻿using Enums;
-using ClinicCore.DTOs.SecretaryDTOs;
-using Model;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Enums;
 using System;
 using System.Collections.Generic;
 

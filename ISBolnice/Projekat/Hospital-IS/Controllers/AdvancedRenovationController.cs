@@ -1,11 +1,10 @@
-﻿using Enums;
-using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
+using ClinicCore.Service;
+using Enums;
 using Hospital_IS.Service;
 using Model;
 using Service;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Hospital_IS.Controllers
 {

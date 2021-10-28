@@ -1,9 +1,8 @@
-﻿using DTOs;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
+using DTOs;
 using Enums;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
-using Hospital_IS.Enums;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;

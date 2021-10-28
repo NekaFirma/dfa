@@ -1,8 +1,7 @@
-﻿using DTOs;
-using Hospital_IS.Adapter;
+﻿using ClinicCore.DTOs;
+using DTOs;
 using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
-using Hospital_IS.DTOs;
 using Model;
 using System;
 

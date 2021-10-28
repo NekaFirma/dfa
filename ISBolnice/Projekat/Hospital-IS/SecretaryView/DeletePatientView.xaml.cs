@@ -1,5 +1,5 @@
-﻿using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Hospital_IS.Controllers;
 using System.Windows;
 
 namespace Hospital_IS.SecretaryView

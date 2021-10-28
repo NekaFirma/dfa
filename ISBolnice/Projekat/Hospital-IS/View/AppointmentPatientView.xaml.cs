@@ -1,6 +1,4 @@
-﻿using Model;
-using System;
-using System.Windows;
+﻿using System;
 using System.Windows.Controls;
 
 namespace Hospital_IS.View

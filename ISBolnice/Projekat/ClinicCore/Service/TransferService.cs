@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Service
 {
-    class TransferService
+    public class TransferService
     {
         private TransferStorage tfs = new TransferStorage();
         private List<Transfer> allTransfer { get; set; }

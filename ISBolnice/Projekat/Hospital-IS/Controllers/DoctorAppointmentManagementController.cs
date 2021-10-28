@@ -1,9 +1,6 @@
-﻿
-using DTOs;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using ClinicCore.Service;
 using Enums;
-using Hospital_IS.DTOs.SecretaryDTOs;
-using Hospital_IS.Service;
-using System;
 using System.Collections.Generic;
 
 namespace Hospital_IS.Controllers

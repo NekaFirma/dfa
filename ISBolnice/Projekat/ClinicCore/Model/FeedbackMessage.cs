@@ -2,7 +2,7 @@
 
 namespace ClinicCore.Model
 {
-    class FeedbackMessage
+    public class FeedbackMessage
     {
         public String Text { get; set; }
         public DateTime DateSent { get; set; }

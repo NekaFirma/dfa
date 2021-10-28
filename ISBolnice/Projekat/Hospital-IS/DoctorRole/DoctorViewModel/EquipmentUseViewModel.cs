@@ -1,6 +1,6 @@
-﻿using Enums;
+﻿using ClinicCore.DTOs;
+using Enums;
 using Hospital_IS.DoctorRole.Commands;
-using Hospital_IS.DTOs;
 using Model;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

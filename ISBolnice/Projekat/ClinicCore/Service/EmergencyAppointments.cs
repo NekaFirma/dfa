@@ -1,6 +1,6 @@
-﻿using DTOs;
-using ClinicCore.DTOs;
+﻿using ClinicCore.DTOs;
 using ClinicCore.Utils;
+using DTOs;
 using Model;
 using Service;
 using System;

@@ -1,6 +1,6 @@
-﻿using Enums;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Enums;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Hospital_IS.SecretaryView;
 using System;
 using System.Collections.Generic;

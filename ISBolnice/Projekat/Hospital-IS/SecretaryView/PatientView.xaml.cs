@@ -1,14 +1,11 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using DTOs;
 using Enums;
 using Hospital_IS.Adapter;
-using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Hospital_IS.SecretaryView;
-using System;
 using System.Collections.ObjectModel;
 using System.Windows;
-using System.Windows.Threading;
 
 namespace Hospital_IS
 {

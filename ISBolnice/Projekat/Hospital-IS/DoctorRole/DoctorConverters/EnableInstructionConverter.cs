@@ -1,5 +1,4 @@
-﻿using Hospital_IS.DTOs;
-using Model;
+﻿using ClinicCore.DTOs;
 using System;
 using System.Windows.Data;
 

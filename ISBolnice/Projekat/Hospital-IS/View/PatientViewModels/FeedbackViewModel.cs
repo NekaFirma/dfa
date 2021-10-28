@@ -1,9 +1,6 @@
-﻿using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
-using Hospital_IS.Model;
+﻿using ClinicCore.DTOs;
+using Hospital_IS.Controllers;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Hospital_IS.View.PatientViewModels
 {

@@ -1,7 +1,5 @@
-﻿using DTOs;
-using ClinicCore.Storages;
+﻿using ClinicCore.Storages;
 using Model;
-using System;
 using System.Collections.Generic;
 
 namespace Service
@@ -93,7 +91,7 @@ namespace Service
             return medicine;
         }
 
-        internal bool IsNameUnique(string name)
+        public bool IsNameUnique(string name)
         {
             bool isUnique = true;
            foreach (Medicine med in AllMedicines)

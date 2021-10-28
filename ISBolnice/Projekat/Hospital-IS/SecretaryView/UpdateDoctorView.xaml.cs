@@ -1,9 +1,9 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using Controllers;
 using DTOs;
+using Enums;
 using Hospital_IS.Adapter;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
-using Hospital_IS.Enums;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

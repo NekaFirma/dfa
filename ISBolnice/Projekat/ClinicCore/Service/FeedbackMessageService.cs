@@ -1,10 +1,10 @@
-﻿using ClinicCore.Storages;
+﻿using ClinicCore.Model;
+using ClinicCore.Storages;
 using System.Collections.Generic;
-using ClinicCore.Model;
 
 namespace ClinicCore.Service
 {
-    class FeedbackMessageService
+    public class FeedbackMessageService
     {
         public List<FeedbackMessage> AllMessages { get; set; }
         private FeedbackFileStorage ffs = new FeedbackFileStorage();

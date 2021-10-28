@@ -1,9 +1,9 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using DTOs;
 using Hospital_IS.Adapter;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;

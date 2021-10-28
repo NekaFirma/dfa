@@ -1,5 +1,5 @@
-﻿using Controllers;
-using Hospital_IS.Model;
+﻿using ClinicCore.Model;
+using Controllers;
 using Model;
 using System;
 using System.Windows;

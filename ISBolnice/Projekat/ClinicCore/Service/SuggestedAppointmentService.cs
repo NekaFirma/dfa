@@ -1,5 +1,5 @@
-﻿using Enums;
-using ClinicCore.DTOs;
+﻿using ClinicCore.DTOs;
+using Enums;
 using Model;
 using Service;
 using System;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace ClinicCore.Service
 {
-    class SuggestedAppointmentService
+    public class SuggestedAppointmentService
     {
         private static SuggestedAppointmentService instance = null;
         public static SuggestedAppointmentService Instance

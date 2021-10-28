@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
+﻿using ClinicCore.DTOs;
+using Controllers;
+using Enums;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
-using System.Windows.Input;
+using System;
+using System.Collections.Generic;
 using System.IO;
-using Controllers;
-using Hospital_IS.DTOs;
-using Enums;
+using System.Windows;
+using System.Windows.Navigation;
 
 namespace Hospital_IS.ManagerViewModel
 {

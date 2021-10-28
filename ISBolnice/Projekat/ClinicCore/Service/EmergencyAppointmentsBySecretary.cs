@@ -1,13 +1,11 @@
 ﻿using ClinicCore.DTOs;
-using ClinicCore.Service;
 using ClinicCore.Utils;
 using Model;
 using Service;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Hospital_IS.Service
+namespace ClinicCore.Service
 {
     public class EmergencyAppointmentsBySecretary : EmergencyAppointments
     {

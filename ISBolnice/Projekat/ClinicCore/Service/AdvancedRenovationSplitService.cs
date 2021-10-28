@@ -1,14 +1,9 @@
 ﻿using Model;
 using Service;
-using Storages;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
 
 namespace ClinicCore.Service
 {
-    class AdvancedRenovationSplitService : IAdvancedRenovationService
+    public class AdvancedRenovationSplitService : IAdvancedRenovationService
     {
        
 

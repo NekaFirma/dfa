@@ -1,6 +1,5 @@
 ﻿using Hospital_IS.DoctorRole.DoctorViewModel;
 using System.Windows.Controls;
-using System.Windows.Input;
 
 namespace Hospital_IS.DoctorRole.DoctorView
 {

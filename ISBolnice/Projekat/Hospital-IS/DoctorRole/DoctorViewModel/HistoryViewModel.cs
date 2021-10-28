@@ -1,17 +1,17 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using DTOs;
+using Enums;
 using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorRole.DoctorView;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-using System.Windows.Data;
 using System.Linq;
-using Enums;
+using System.Windows.Data;
 
 //MVVM
 namespace Hospital_IS.DoctorViewModel

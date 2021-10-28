@@ -1,9 +1,7 @@
-﻿using DTOs;
-using Enums;
-using Hospital_IS.DTOs;
-using Hospital_IS.Service;
+﻿using ClinicCore.DTOs;
+using ClinicCore.Service;
+using DTOs;
 using Model;
-using Service;
 using System;
 using System.Collections.Generic;
 

@@ -1,9 +1,9 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using DTOs;
 using Hospital_IS.Adapter;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Hospital_IS.SecretaryView.Localization;
 using Hospital_IS.SecretaryView.ViewModel;
 using System;

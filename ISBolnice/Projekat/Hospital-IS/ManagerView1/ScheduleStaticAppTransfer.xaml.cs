@@ -5,7 +5,7 @@ using System.Windows.Controls;
 
 namespace Hospital_IS.ManagerView1
 {
-    
+
     public partial class ScheduleStaticAppTransfer : Page
     {
 

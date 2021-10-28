@@ -1,6 +1,6 @@
-﻿using Hospital_IS.DoctorRole.Commands;
+﻿using ClinicCore.DTOs;
+using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorViewModel;
-using Hospital_IS.DTOs;
 
 //MVVM
 namespace Hospital_IS.DoctorRole.DoctorViewModel

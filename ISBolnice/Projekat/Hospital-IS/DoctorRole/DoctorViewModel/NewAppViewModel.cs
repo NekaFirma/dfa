@@ -1,11 +1,11 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs;
+using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using DTOs;
 using Enums;
 using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
 using Hospital_IS.DoctorRole.DoctorConverters;
-using Hospital_IS.DTOs;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Model;
 using System;
 using System.Collections.Generic;

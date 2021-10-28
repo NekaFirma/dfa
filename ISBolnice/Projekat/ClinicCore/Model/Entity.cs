@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ClinicCore.Model
+﻿namespace ClinicCore.Model
 {
     public class Entity
     {

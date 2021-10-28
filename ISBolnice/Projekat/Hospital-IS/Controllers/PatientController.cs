@@ -1,4 +1,4 @@
-﻿using Hospital_IS.Model;
+﻿using ClinicCore.Model;
 using Model;
 using Service;
 using System.Collections.Generic;

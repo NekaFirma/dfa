@@ -1,13 +1,11 @@
-﻿using DTOs;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using DTOs;
 using Hospital_IS.DoctorRole.DoctorView;
 using Hospital_IS.DoctorRole.DoctorViewModel;
 using Hospital_IS.DoctorViewModel;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Model;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows.Navigation;
 
 namespace Hospital_IS.DoctorRole.Commands
@@ -198,5 +196,6 @@ namespace Hospital_IS.DoctorRole.Commands
             notificationDisplayViewModel.SelectedNotification = notificationDTO;
             this.NavigationService.Navigate(new NotificationDisplay(notificationDisplayViewModel));
         }
+
     }
 }

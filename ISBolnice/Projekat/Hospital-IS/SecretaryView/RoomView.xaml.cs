@@ -1,5 +1,5 @@
-﻿using Enums;
-using Hospital_IS.DTOs.SecretaryDTOs;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Enums;
 using System.Windows;
 
 namespace Hospital_IS.SecretaryView

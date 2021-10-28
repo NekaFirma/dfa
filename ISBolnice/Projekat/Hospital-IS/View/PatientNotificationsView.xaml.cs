@@ -1,10 +1,4 @@
-﻿using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
-using Hospital_IS.View.PatientViewModels;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Windows;
+﻿using Hospital_IS.View.PatientViewModels;
 using System.Windows.Controls;
 
 namespace Hospital_IS.View

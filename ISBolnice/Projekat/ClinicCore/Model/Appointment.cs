@@ -1,5 +1,5 @@
-using Enums;
 using ClinicCore.Model;
+using Enums;
 using System;
 
 namespace Model

@@ -1,7 +1,6 @@
-﻿using System;
+﻿using Enums;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using Enums;
 
 namespace ClinicCore.DTOs
 {

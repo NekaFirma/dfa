@@ -1,10 +1,8 @@
 ﻿using ClinicCore.Model;
-using Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace ClinicCore.Storages
 {

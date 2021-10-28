@@ -1,6 +1,6 @@
-﻿using Hospital_IS.Adapter;
+﻿using ClinicCore.DTOs;
+using Hospital_IS.Adapter;
 using Hospital_IS.DoctorRole.Commands;
-using Hospital_IS.DTOs;
 using System.Windows.Navigation;
 
 //MVVM

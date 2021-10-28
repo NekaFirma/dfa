@@ -1,11 +1,9 @@
 ﻿using Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Data;
 
 namespace Hospital_IS.DoctorRole.DoctorConverters
-{ 
+{
 
     [ValueConversion(typeof(RoomType), typeof(String))]
     public class RoomTypeConverter : IValueConverter

@@ -1,15 +1,14 @@
-﻿using DTOs;
-using Enums;
-using ClinicCore.DTOs;
+﻿using ClinicCore.DTOs;
 using ClinicCore.DTOs.SecretaryDTOs;
+using DTOs;
+using Enums;
 using Model;
 using Service;
-using System;
 using System.Collections.Generic;
 
 namespace ClinicCore.Service
 {
-    class DoctorAppointmentManagementService
+    public class DoctorAppointmentManagementService
     {
         public List<DoctorAppointmentDTO> AllAppointments { get; set; } = new List<DoctorAppointmentDTO>();
         public List<RoomDTO> AllRooms { get; set; } = new List<RoomDTO>();

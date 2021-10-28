@@ -1,5 +1,5 @@
-﻿using DTOs;
-using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
+using DTOs;
 using Model;
 using Service;
 using System;

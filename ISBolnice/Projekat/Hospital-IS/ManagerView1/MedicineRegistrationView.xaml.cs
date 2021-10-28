@@ -1,4 +1,4 @@
-﻿using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
 using Hospital_IS.ManagerViewModel;
 using System.Windows;
 using System.Windows.Controls;

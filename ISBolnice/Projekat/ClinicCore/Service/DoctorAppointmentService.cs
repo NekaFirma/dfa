@@ -1,12 +1,13 @@
 ﻿using ClinicCore.Storages;
 using Model;
+using Service;
 using Storages;
 using System;
 using System.Collections.Generic;
 
-namespace Service
+namespace ClinicCore.Service
 {
-    class DoctorAppointmentService
+    public class DoctorAppointmentService
     {
         //private AppointmentFileStorage afs = new AppointmentFileStorage();
         public List<DoctorAppointment> AllAppointments { get; set; }

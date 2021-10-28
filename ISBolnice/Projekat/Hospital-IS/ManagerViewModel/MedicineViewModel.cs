@@ -1,5 +1,5 @@
-﻿using Controllers;
-using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
+using Controllers;
 using Hospital_IS.ManagerHelp;
 using Hospital_IS.ManagerView1;
 using Model;

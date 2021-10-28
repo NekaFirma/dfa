@@ -3,8 +3,6 @@ using Enums;
 using Hospital_IS.DTOs;
 using Model;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Navigation;
 
 namespace Hospital_IS.ManagerViewModel

@@ -5,7 +5,7 @@ using Service;
 using System.Collections.Generic;
 namespace ClinicCore.Service
 {
-    class SecretaryUserManagementService
+    public class SecretaryUserManagementService
     {
         public List<PatientDTO> AllPatients { get; set; } = new List<PatientDTO>();
         public List<DoctorDTO> AllDoctors { get; set; } = new List<DoctorDTO>();

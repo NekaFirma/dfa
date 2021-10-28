@@ -1,6 +1,5 @@
-﻿using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
-using System;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Hospital_IS.Controllers;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows;

@@ -1,5 +1,5 @@
-﻿using Controllers;
-using Hospital_IS.Model;
+﻿using ClinicCore.Model;
+using Controllers;
 using System;
 
 namespace Hospital_IS.View.PatientViewModels

@@ -1,5 +1,5 @@
-﻿using Controllers;
-using Hospital_IS.DTOs;
+﻿using ClinicCore.DTOs;
+using Controllers;
 using Service;
 using System;
 using System.Collections.ObjectModel;

@@ -1,4 +1,5 @@
-﻿using Hospital_IS.Controllers;
+﻿using ClinicCore.DTOs;
+using Hospital_IS.Controllers;
 using Hospital_IS.DoctorRole.Commands;
 using System;
 
@@ -35,7 +36,7 @@ namespace Hospital_IS.DoctorRole.DoctorViewModel
         }
         private void Execute_SaveCommand(object obj)
         {
-            FeedbackMessageController.Instance.AddFeedbackMessage(new DTOs.FeedbackMessageDTO(Text, DateTime.Now));
+            FeedbackMessageController.Instance.AddFeedbackMessage(new FeedbackMessageDTO(Text, DateTime.Now));
             DoctorNavigationController.Instance.NavigateToSettingsCommand();
         }
 

@@ -3,11 +3,10 @@ using Model;
 using Storages;
 using System;
 using System.Collections.Generic;
-using System.Windows;
 
 namespace Service
 {
-    class RoomService
+    public class RoomService
     {
         private RoomStorage rfs = new RoomStorage();
         public List<Room> AllRooms { get; set; }

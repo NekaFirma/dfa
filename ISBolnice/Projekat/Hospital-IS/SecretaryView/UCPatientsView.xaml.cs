@@ -1,7 +1,6 @@
-﻿using Controllers;
-using Hospital_IS.Adapter;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Hospital_IS.SecretaryView;
 using System.Collections.ObjectModel;
 using System.ComponentModel;

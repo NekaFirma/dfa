@@ -1,6 +1,6 @@
-﻿using Controllers;
+﻿using ClinicCore.DTOs.SecretaryDTOs;
+using Controllers;
 using Hospital_IS.Controllers;
-using Hospital_IS.DTOs.SecretaryDTOs;
 using Hospital_IS.SecretaryView;
 using Model;
 using System;

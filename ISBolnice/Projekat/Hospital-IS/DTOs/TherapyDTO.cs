@@ -1,9 +1,6 @@
-﻿using DTOs;
-using Hospital_IS.DoctorRole.DoctorConverters;
+﻿using Hospital_IS.DoctorRole.DoctorConverters;
 using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 using System.Windows;
 
 namespace Hospital_IS.DTOs

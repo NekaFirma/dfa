@@ -1,8 +1,6 @@
 ﻿using DTOs;
 using Enums;
 using Hospital_IS.Controllers;
-using Hospital_IS.Enums;
-using Model;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
