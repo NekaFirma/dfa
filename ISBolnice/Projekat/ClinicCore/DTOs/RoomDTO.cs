@@ -1,7 +1,7 @@
 ﻿using Enums;
 using System.Collections.Generic;
 
-namespace ClinicCore.DTOs.SecretaryDTOs
+namespace ClinicCore.DTOs
 {
     public class RoomDTO
     {

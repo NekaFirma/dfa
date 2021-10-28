@@ -173,12 +173,12 @@ namespace Service
 
         public void AddEquipment(Room room, Equipment newEquip)
         {
-            newEquip.EquiptId = genereteId(room.Equipment);
+            newEquip.EquiptId = GenerateId(room.Equipment);
             room.AddEquipment(newEquip);
             rfs.Update(room);
         }
 
-        private int genereteId(List<Equipment> equipList)
+        private int GenerateId(List<Equipment> equipList)
         {
             if (equipList != null)
             {

@@ -6,7 +6,7 @@ namespace Service
 {
     public class MedicineNotificationService
     {
-        private MedcineNotificationStorage mnfs = new MedcineNotificationStorage();
+        private MedicineNotificationStorage mnfs = new MedicineNotificationStorage();
         public List<MedicineNotification> AllNotification { get; set; } = new List<MedicineNotification>();
 
         private static MedicineNotificationService instance = null;

@@ -18,12 +18,12 @@ namespace Model
             Text = text;
             DatePosted = datePosted;
             LastChanged = datePosted;
-            generateId();
+            GenerateId();
         }
         public Notification(string title, string text, DateTime datePosted, DateTime lastChanged) : this(title, text, datePosted)
         {
             LastChanged = lastChanged;
-            generateId();
+            GenerateId();
         }
 
         public Notification(string title, string text, DateTime datePosted, DateTime lastChanged, List<int> recipients, int id) : this(title, text, datePosted)
@@ -35,10 +35,10 @@ namespace Model
 
         public Notification()
         {
-            generateId();
+            GenerateId();
         }
 
-        private void generateId() 
+        private void GenerateId() 
         {
             Random rand = new Random();
             this.Id = rand.Next(1, 100000);

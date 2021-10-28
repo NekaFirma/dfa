@@ -42,7 +42,7 @@ namespace Model
 
         public List<Equipment> Equipment { get; set; } = new List<Equipment>();
 
-        public Boolean isUsable { get; set; }
+        public Boolean IsUsable { get; set; }
 
         public Room(int roomFloor, int roomNumber, int surfaceArea, int bedNumber,RoomType type)
         {

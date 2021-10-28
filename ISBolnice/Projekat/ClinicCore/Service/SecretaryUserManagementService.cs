@@ -1,8 +1,8 @@
 ﻿using ClinicCore.DTOs;
-using ClinicCore.DTOs.SecretaryDTOs;
 using Model;
 using Service;
 using System.Collections.Generic;
+
 namespace ClinicCore.Service
 {
     public class SecretaryUserManagementService

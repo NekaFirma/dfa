@@ -18,21 +18,22 @@ namespace Storages
 
         public List<Appointment> GetAll()
         {
-             String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<Appointment> allAppointments = JsonConvert.DeserializeObject<List<Appointment>>(text);
           
-            return allAppointments;
+            return allAppointments;*/
+            return null;
         }
 
        
 
         public void SaveAppointment(List<Appointment> allAppointments)
         {
-            var file = JsonConvert.SerializeObject(allAppointments, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
+            /*var file = JsonConvert.SerializeObject(allAppointments, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
             using (StreamWriter writer = new StreamWriter(this.fileLocation))
             {
                 writer.Write(file);
-            }
+            }*/
         }
 
 

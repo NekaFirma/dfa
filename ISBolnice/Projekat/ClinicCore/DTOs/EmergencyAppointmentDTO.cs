@@ -1,5 +1,4 @@
-﻿using ClinicCore.DTOs.SecretaryDTOs;
-using Enums;
+﻿using Enums;
 using System;
 using System.Collections.Generic;
 

@@ -17,18 +17,19 @@ namespace Storages
 
         public List<MedicalHistory> GetAll()
         {
-            String text = File.ReadAllText(this.fileLocation);
+            /*String text = File.ReadAllText(this.fileLocation);
             List<MedicalHistory> allCharts = JsonConvert.DeserializeObject<List<MedicalHistory>>(text);
-            return allCharts;
+            return allCharts;*/
+            return null;
         }
 
         public void SaveCharts(List<MedicalHistory> allCharts)
         {
-            var file = JsonConvert.SerializeObject(allCharts, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
+            /*var file = JsonConvert.SerializeObject(allCharts, Formatting.Indented, new JsonSerializerSettings() { ReferenceLoopHandling = ReferenceLoopHandling.Ignore });
             using (StreamWriter writer = new StreamWriter(this.fileLocation))
             {
                 writer.Write(file);
-            }
+            }*/
         }
     }
 }
