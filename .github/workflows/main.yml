@@ -13,5 +13,6 @@ jobs:
         with:
           app_id: ${{ secrets.PUSHING_HOURS_RESTRICTION_APP_ID }}
           private_key: ${{ secrets.PUSHING_HOURS_RESTRICTION_PRIVATE_KEY }}
-          start_hour: 20
-          end_hour: 23
+          start_hour: 9
+          end_hour: 10
+          time_zone: CET
