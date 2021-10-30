@@ -3,7 +3,7 @@ name: Pushing Hours Restriction
 on:
   schedule:
     # NOTE: Execute every hour from Monday to Thursday with UTC
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   pushing_hours_restriction:
