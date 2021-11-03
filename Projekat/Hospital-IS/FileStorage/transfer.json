@@ -1,0 +1,32 @@
+[
+  {
+    "SourceRoomId": 2,
+    "DestinationRoomId": 14,
+    "Equip": {
+      "EquipType": 0,
+      "EquiptId": 4,
+      "Name": "bolnicki krevet",
+      "Quantity": 50,
+      "ProducerName": "Metalac",
+      "EquiptTypeIndex": 0
+    },
+    "Quantity": 25,
+    "TransferEnd": "2021-06-10T04:49:57",
+    "isMade": true
+  },
+  {
+    "SourceRoomId": 2,
+    "DestinationRoomId": 14,
+    "Equip": {
+      "EquipType": 0,
+      "EquiptId": 4,
+      "Name": "bolnicki krevet",
+      "Quantity": 50,
+      "ProducerName": "Metalac",
+      "EquiptTypeIndex": 0
+    },
+    "Quantity": 25,
+    "TransferEnd": "2021-06-10T05:01:30",
+    "isMade": true
+  }
+]
