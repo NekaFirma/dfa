@@ -1,0 +1,18 @@
+name: Pushing Hours Restriction
+
+on:
+  schedule:
+    # NOTE: Execute every hour from Monday to Thursday with UTC
+    - cron: '* * * * *'
+
+jobs:
+  pushing_hours_restriction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hamuyuuki/pushing-hours-restriction@v0.8.1
+        with:
+          app_id: ${{ secrets.PUSHING_HOURS_RESTRICTION_APP_ID }}
+          private_key: ${{ secrets.PUSHING_HOURS_RESTRICTION_PRIVATE_KEY }}
+          start_hour: 9
+          end_hour: 10
+          time_zone: CET

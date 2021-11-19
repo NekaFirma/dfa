@@ -1,0 +1,83 @@
+[
+  {
+    "SenderId": [
+      6
+    ],
+    "Title": "RE:Odobrenje dsvsdvvdvv",
+    "Medicine": {
+      "Name": "dsvsdvvdvv",
+      "Composition": [
+        {
+          "Component": "dsvdsvsdv"
+        },
+        {
+          "Component": "dsvdsvsdv"
+        }
+      ],
+      "SideEffects": "dvdsvdsvsdsvv",
+      "Usage": "dsvdsvsdvdsvvsdv",
+      "ReplaceMedicine": [
+        {
+          "Name": "dsvsdvds"
+        },
+        {
+          "Name": "dsvsdvds"
+        }
+      ]
+    },
+    "RecieverIds": [
+      10,
+      11
+    ],
+    "Note": null,
+    "DateSent": "2021-05-22T15:03:27.0529265+02:00",
+    "ApprovalCounter": 1
+  },
+  {
+    "SenderId": [
+      6
+    ],
+    "Title": "Odobrenje fsdsaf",
+    "Medicine": {
+      "Name": "fsdsaf",
+      "Composition": [
+        {
+          "Component": "fsdfsda"
+        }
+      ],
+      "SideEffects": "fdsafsd",
+      "Usage": "fsdafsdfsd",
+      "ReplaceMedicine": [
+        {
+          "Name": "fsadfasaf"
+        }
+      ]
+    },
+    "RecieverIds": [
+      4
+    ],
+    "Note": null,
+    "DateSent": "2021-06-07T06:49:27.3574698+02:00",
+    "ApprovalCounter": 0
+  },
+  {
+    "SenderId": [
+      6
+    ],
+    "Title": "Odobrenje brufen 100",
+    "Medicine": {
+      "Name": "brufen 100",
+      "Composition": [],
+      "SideEffects": null,
+      "Usage": null,
+      "ReplaceMedicine": []
+    },
+    "RecieverIds": [
+      11,
+      10
+    ],
+    "Note": null,
+    "DateSent": "2021-06-07T15:08:46.6772233+02:00",
+    "ApprovalCounter": 1
+  }
+]
