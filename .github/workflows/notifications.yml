@@ -8,7 +8,7 @@ on:
     branches: [ develop ]
     
 jobs:
-  notify_about_commit:
+  push-notification:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
@@ -18,7 +18,7 @@ jobs:
           color: '#8B008B'
           footer: Push
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
-  notify_about_pr:
+  pr-notification:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
